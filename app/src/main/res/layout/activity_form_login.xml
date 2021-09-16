@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormLoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:layout_marginVertical="100dp"
+        android:src="@drawable/orange_android_bw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/form_login_username"
+        style="@style/EditText"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        />
+
+    <EditText
+        android:id="@+id/form_login_password"
+        style="@style/EditText"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="26dp"
+        android:hint="@string/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/form_login_username"
+        android:drawableEnd="@drawable/ic_eye"
+        />
+
+    <Button
+        android:id="@+id/form_login_login"
+        style="@style/ButtonConfirm"
+        android:text="@string/login"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/form_login_password"
+        />
+    
+    <TextView
+        android:id="@+id/form_login_forgot_password"
+        android:text="@string/forgot_password"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/form_login_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="14dp"
+        />
+
+    <TextView
+        android:id="@+id/form_login_create_new_account"
+        android:text="@string/create_a_new_account"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="18dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
