@@ -8,8 +8,12 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import br.com.marciosouza.loginorange.R
+import br.com.marciosouza.loginorange.activity.model.UserList
+import com.google.firebase.firestore.auth.User
 
 class FormLoginActivity : Activity() {
+
+    val userList = UserList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,15 +46,17 @@ class FormLoginActivity : Activity() {
 
         login.setOnClickListener() {
 
-
                 if(checkUserData(username.text.toString(), password.text.toString())){
                     val intent = Intent(this, PersonalDataActivity::class.java)
-                    intent.putExtra("name", username.text.toString())
-                    intent.putExtra("email", password.text.toString())
+
+                    intent.putExtra("name", userList.findUser(username.text.toString()))
+                    intent.putExtra("email", username.text.toString())
+
+                    Toast.makeText(this, "User successfully logged in", Toast.LENGTH_SHORT).show()
 
                     startActivity(intent)
                 }else {
-                    Toast.makeText(this, "Fill in all fields", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "User not found", Toast.LENGTH_SHORT).show()
                 }
             }
 
@@ -60,6 +66,6 @@ class FormLoginActivity : Activity() {
     }
 
     fun checkUserData(username: String, password: String): Boolean {
-        return username.isNotEmpty() && password.isNotEmpty()
+        return username.isNotEmpty() && password.isNotEmpty() && userList.checkExist(username, password)
     }
 }

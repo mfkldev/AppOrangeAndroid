@@ -13,4 +13,12 @@ class UserList {
     companion object {
         private val userList = mutableListOf<User>()
     }
+
+    fun checkExist(username: String, password: String) : Boolean{
+        return userList.any{ it.email == username && it.password == password }
+    }
+
+    fun findUser(username: String) : String? {
+        return userList.find{ it.email == username}?.name
+    }
 }
