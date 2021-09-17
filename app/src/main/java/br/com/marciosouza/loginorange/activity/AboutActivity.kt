@@ -1,27 +1,21 @@
 package br.com.marciosouza.loginorange.activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import br.com.marciosouza.loginorange.R
 
-class PersonalDataActivity : AppCompatActivity() {
+class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_personal_data)
-
+        setContentView(R.layout.activity_about)
         startComponent()
     }
 
     private fun startComponent() {
-        findViewById<TextView>(R.id.personal_data_loggout)
+        findViewById<TextView>(R.id.about_back)
             .setOnClickListener() {
                 finish()
-            }
-        findViewById<TextView>(R.id.personal_data_chocolate)
-            .setOnClickListener() {
-                startActivity(Intent(this, AboutActivity::class.java))
             }
     }
 }

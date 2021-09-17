@@ -25,5 +25,10 @@ class FormLoginActivity : Activity() {
             .setOnClickListener() {
                 startActivity(Intent(this, PersonalDataActivity::class.java))
             }
+
+        findViewById<TextView>(R.id.form_login_forgot_password)
+            .setOnClickListener() {
+                startActivity(Intent(this, UnderConstructionActivity::class.java))
+            }
     }
 }

@@ -14,4 +14,8 @@
     <string name="do_you_have_an_account">Do you have an account?</string>
     <string name="loggout">Loggout</string>
     <string name="do_you_want_to_send_a_chocolate">Do you want to send a chocolate?</string>
+    <string name="under_construction">Under Construction</string>
+    <string name="back">Back</string>
+    <string name="about_the_dev">About The Dev</string>
+    <string name="text_about_dev">Dev: Marcio Franklin\n\nAddress: Rua Boa Esperança, 95 Cond. Graphos, Bloco 11, Apt 103, Turu, São Luís/MA. CEP: 65.0666–190</string>
 </resources>
