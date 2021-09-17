@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798397676421",
+    "project_id": "orange-android-4f4af",
+    "storage_bucket": "orange-android-4f4af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798397676421:android:7f9ba1cc7747020d6de2ec",
+        "android_client_info": {
+          "package_name": "br.com.marciosouza.loginorange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798397676421-db2bbaod9n8fgl1cjj1c852r8uadclek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8zpUHqb7dOLK1_Ppy6Qeuas-3vp2z3eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798397676421-db2bbaod9n8fgl1cjj1c852r8uadclek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

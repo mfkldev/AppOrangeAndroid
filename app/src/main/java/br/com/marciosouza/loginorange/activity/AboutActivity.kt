@@ -18,4 +18,5 @@ class AboutActivity : AppCompatActivity() {
                 finish()
             }
     }
+
 }
