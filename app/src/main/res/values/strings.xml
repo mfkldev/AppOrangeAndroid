@@ -12,4 +12,6 @@
     <string name="name">Name</string>
     <string name="join">Join</string>
     <string name="do_you_have_an_account">Do you have an account?</string>
+    <string name="loggout">Loggout</string>
+    <string name="do_you_want_to_send_a_chocolate">Do you want to send a chocolate?</string>
 </resources>

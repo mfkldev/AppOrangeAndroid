@@ -1,9 +1,9 @@
-package br.com.marciosouza.loginorange
+package br.com.marciosouza.loginorange.activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import br.com.marciosouza.loginorange.R
 
 class FormRegistrationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

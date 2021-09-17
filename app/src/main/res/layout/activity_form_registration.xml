@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background"
-        tools:context=".FormRegistrationActivity">
+        tools:context=".activity.FormRegistrationActivity">
 
         <ImageView
             android:id="@+id/form_registration_logo"
@@ -29,12 +29,12 @@
 
         <TextView
             android:id="@+id/form_registration_create_account"
+            style="@style/TitleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
             android:text="@string/create_an_account"
             android:textColor="@color/white"
-            android:textSize="22sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/form_registration_logo"
