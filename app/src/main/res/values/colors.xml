@@ -10,5 +10,10 @@
     <color name="orange_orange_android">#EB7304</color>
     <color name="brown_orange_android">#C35C22</color>
     <color name="cream_orange_android">#BBEFE4E4</color>
-    <color name="orange_light_orange_android">#F5B880</color>
+    <color name="orange_light_orange_android">#E08B3D</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
 </resources>

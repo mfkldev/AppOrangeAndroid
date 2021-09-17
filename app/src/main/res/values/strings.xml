@@ -2,7 +2,14 @@
     <string name="app_name">Login Orange</string>
     <string name="password">Password</string>
     <string name="username">Username</string>
-    <string name="login">Login</string>
+    <string name="login">Sign In</string>
     <string name="forgot_password">Forgot Password?</string>
-    <string name="create_a_new_account">Create a new account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="name">Name</string>
+    <string name="join">Join</string>
+    <string name="do_you_have_an_account">Do you have an account?</string>
 </resources>
